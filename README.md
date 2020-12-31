@@ -37,3 +37,5 @@ Try to hit several keys at the end of the game to see all of the characters.
 Try to get to 3000 points, as this is when David has successfully stalled the hackers long enough for the personal information to be safe.
 
 THAT'S IT! Enjoy playing this simple yet fun runner game! 
+
+NOTE: If you would like to play this game, you need to install LOVE. Go to https://love2d.org/ to install it. Afterwards, run this code by dragging the entire file to the LOVE executable.
