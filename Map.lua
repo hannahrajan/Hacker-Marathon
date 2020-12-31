@@ -187,6 +187,7 @@ function Map:reset()
     for i=1, 4 do 
         self.obs['o' .. i].x = math.random(self.tileW * 40, self.tileW * 60)
         self.obs['o' .. i].y = -100
+        self.obs['o' .. i].rounds = 0
     end
 end
 function Map:render(start)
