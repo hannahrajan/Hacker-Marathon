@@ -49,7 +49,9 @@ function Player:init(map)
         if collider_1.collision_class == 'Player' and collider_2.collision_class == 'Border' then
             contact:setEnabled(false)
             if collider_1:enter(collider_2.collision_class) and self.state ~= 'jumping' then
-                self.fillerx, self.fillery = collider_2:getPosition()
+                self.lives =  0
+                self.sounds['hit']:play()
+                --[[self.fillerx, self.fillery = collider_2:getPosition()
                 x2, y2 = self.fillerx, self.fillery
                 if self.x >= 210 then--right
                     self.x = math.min(self.x, x2)
@@ -57,7 +59,7 @@ function Player:init(map)
                 elseif self.x < 240  then --left
                     self.x = math.max(self.x, x2)
                     self.y = math.max(self.y, y2)
-                end
+                end--]]
                 --[[if self.y > 11 0 then--right
                     self.y = math.min(self.y, y2)
                 end
