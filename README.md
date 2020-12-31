@@ -62,4 +62,4 @@ Try to get to 3000 points, as this is when David has successfully stalled the ha
 THAT'S IT! Enjoy playing this simple yet fun runner game! 
 
 
-{NOTE: If you would like to play this game, you need to install LOVE. Go to https://love2d.org/ to install it. After you extract it, run this code by dragging the entire folder to the LOVE executable.}
+{NOTE: If you would like to play this game, you need to install LOVE. Go to https://love2d.org/ to install it. After you extract it, run this code by dragging the entire folder to the LOVE executable. Make sure to link the LOVE executable to your display before dragging the folder.}
