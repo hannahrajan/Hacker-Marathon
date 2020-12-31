@@ -4,6 +4,8 @@ By Hannah Rajan
 
 Trailer Link: https://youtu.be/UNmTm6ttBUU
 
+Feedback: https://docs.google.com/forms/d/e/1FAIpQLSeZB3bC0RUH8pCHvivok6o14B4iwkqeisK1hqQyyG6At3pdcw/viewform?usp=sf_link
+
 Hacker Marathon is a simple yet challenging runner game. In this game, you play as one character, David, who is trying to stop hackers from invading CS50's personal information. In order to do this, he avoids binary numbers, as well as the number 5, while trying to stall the hackers as long as he possibly can. Several options lie ahead for David as he tries to protect the information of his students. Will he stop the hackers?
 
 
