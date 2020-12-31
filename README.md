@@ -56,9 +56,7 @@ Hit the "esc" key to exit the game.
 
 You can resize the game's screen, if you wish. 
 
-Try to hit several keys at the end of the game to see all of the characters.
-
-Try to get to 3000 points, as this is when David has successfully stalled the hackers long enough for the personal information to be safe.
+Try to find any Easter Eggs, then submit them in the Feedback form.
 
 
 THAT'S IT! Enjoy playing this simple yet fun runner game! 
