@@ -47,6 +47,7 @@ Blue - Brian as the Preceptor
 
 {MISCELLANIOUS INFORMATION}
 
+DO NOT GO OVER THE EDGE. This will result in an immediate GAME OVER.
 
 You can restart the game by hitting the "r" key after you lose all of your lives.
 
