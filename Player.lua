@@ -49,26 +49,15 @@ function Player:init(map)
         if collider_1.collision_class == 'Player' and collider_2.collision_class == 'Border' then
             contact:setEnabled(false)
             if collider_1:enter(collider_2.collision_class) and self.state ~= 'jumping' then
-                self.lives = self.lives - 1
-                self.m = 1
-                self.power = 'D'
-                self.x = map.tileW * 10
-                self.y = map.tileH * (map.mapH / 2 - 1) - self.h
-                for i = 1, 4 do
-                    self.map.obs['o' .. i]:reset()
-                    self.map.obs['o' .. i].y = -100
-                    self.map.obs['o' .. i].d = 'down'
-                    self.map.obs['o' .. i].rounds = 0
-                end
-                --[[self.fillerx, self.fillery = collider_2:getPosition()
+                self.fillerx, self.fillery = collider_2:getPosition()
                 x2, y2 = self.fillerx, self.fillery
-                if self.x >= 210 then--right
+                if self.x >= 210 then --right
                     self.x = math.min(self.x, x2)
                     self.y = math.min(self.y, y2)
                 elseif self.x < 240  then --left
                     self.x = math.max(self.x, x2)
                     self.y = math.max(self.y, y2)
-                end--]]
+                end
                 --[[if self.y > 11 0 then--right
                     self.y = math.min(self.y, y2)
                 end
